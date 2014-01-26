@@ -1,0 +1,19 @@
+{
+  "name": "grunt-starter",
+  "version": "0.0.1",
+  "description": "A demo to use GruntJS - JavaScript task Runner ",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hankwang/grunt-101.git"
+  },
+  "author": "Hank Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hankwang/grunt-101/issues"
+  },
+  "homepage": "https://github.com/hankwang/grunt-101",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jade": "~0.9.1"
+  }
+}
