@@ -6,14 +6,17 @@ A demo to use [GruntJS](http://gruntjs.org) JavaScript task Runner.
 
 - Happy Hacking!
 
+## Prerequisites
+
+- NodeJS or 
+
 ## Demo covered
 
-- Use jade to generate dist index.html
-- 
+- Use jade to generate dist index.html 
 
-## Installing GruntJS cli tool
+## Install GruntJS cli tool
 
-Grunt depends on [Node](http://nodejs.org) and [npm](http://npmjs.org) it's installed globally using npm:
+Grunt depends on [Node](http://nodejs.org) and [npm](http://npmjs.org). it's installed globally using npm:
 
 ```
 $ npm install -g grunt-cli
@@ -27,7 +30,7 @@ $ npm init
 
 Follow the prompt and it will generate `package.json` for you.
 
-## Install dependency packages
+## Install local dependency packages
 
 ```
 $ npm install grunt --save-dev
