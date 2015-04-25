@@ -8,11 +8,11 @@ A demo to use [GruntJS](http://gruntjs.org) JavaScript task Runner.
 
 ## Prerequisites
 
-- NodeJS or 
+- NodeJS
 
-## Demo covered
+## Goal
 
-- Use jade to generate dist index.html 
+- Use jade to generate dist/index.html 
 
 ## Install GruntJS cli tool
 
@@ -37,7 +37,9 @@ $ npm install grunt --save-dev
 $ npm install grunt-contrib-jade --save-dev
 ```
 
-## Create Gruntfile.js
+**Hint:** `--save-dev` will auto add installed package to *package.json*, next time you can simply execute `npm i` to install all packages in *packages.json*
+
+## Initial Gruntfile.js
 
 ```
 'use strict'
@@ -47,11 +49,19 @@ module.exports = function(grunt) {
 };
 ```
 
+## Execute tasks
+
+```
+$ grunt jade  # run both dev and dist
+$ grunt jade:dev
+$ grunt jade:dist
+```
+
 After prepared all materials, you just need to modify Gruntfile.js and install more dev-depenedncy you need.
 
 ## Tips
 
-### Search available grunt package by npm
+### Search other available grunt package by npm
 
 ```
 $ npm search grunt
